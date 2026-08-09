@@ -1,26 +1,21 @@
+import rhomboxCertificate from "../assets/Rhombox.jpeg";
+import awsCertificate from "../assets/aws.jpeg";
+
 const certificates=[
 
 {
 
-title:"AWS Solutions Architect",
+title:"Ceritificates of Completion of Internship",
 
-image:"../../aws.jpeg"
-
-},
-
-{
-
-title:"Azure Administrator",
-
-image:"../../azure.jpeg"
+image: rhomboxCertificate
 
 },
 
 {
 
-title:"DevOps Engineer",
+title:"Aws Course Completion Certificate",
 
-image:"../../devOps.jpeg"
+image: awsCertificate
 
 }
 

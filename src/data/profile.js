@@ -1,25 +1,25 @@
 const profile = {
-  name: "Saif Ullah Khan",
-  role: "Software Engineer",
+  name: "Noor Elahi",
+  role: "DevOps Enginneer",
   location: "Pakistan",
-  githubUsername: "Saif-Afridi-1251",
+  githubUsername: "noorelahi1415",
 
   description:
-    "Passionate MERN Stack Developer and Cloude/DevOps Engineer focused on building scalable web applications, cloud infrastructure, and automation solutions.",
+    "AWS DevOps Engineer building automated cloud infrastructure with Docker, Kubernetes, and CI/CD. Currently deploying and orchestrating Odoo ERP environments at scale, developing custom automation tooling (NXSH), and shipping production-grade CI/CD pipelines",
 
-  github: "https://github.com/Saif-Afridi-1251",
+  github: "https://github.com/noorelahi1415",
 
-  linkedin: "https://www.linkedin.com/in/saif-ullah-khan-9919312b2/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BV65sxWh%2FR6WuyetRX63DbQ%3D%3D",
+  linkedin: "linkedin.com/in/noor-elahi-152437398",
 
-  email: "saifaws001@gmail.com",
+  email: "elahi1415@gmai.com",
 
   resume: "/resume/resume.pdf",
 
-  yearsExperience: "0.3",
+  yearsExperience: "0.4",
 
     projectsCompleted:10,
 
-    certifications:4,
+    certifications:2,
 
     technologies:15
 };

@@ -11,7 +11,7 @@ return(
 
 id="certificates"
 
-className="max-w-7xl mx-auto py-32 px-6"
+className="mx-auto max-w-7xl px-5 py-20 sm:px-6 sm:py-24 lg:py-32"
 
 >
 
@@ -23,7 +23,7 @@ subtitle="Achievements"
 
 />
 
-<div className="grid md:grid-cols-3 gap-10">
+<div className="mx-auto grid max-w-4xl gap-6 sm:gap-8 md:grid-cols-2 lg:gap-10">
 
 {
 

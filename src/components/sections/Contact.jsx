@@ -26,7 +26,7 @@ function Contact() {
     
     <section
       id="contact"
-      className="max-w-5xl mx-auto py-32 px-6"
+      className="mx-auto max-w-5xl px-5 py-20 sm:px-6 sm:py-24 lg:py-32"
     >
       <SectionTitle
         title="Let's Work Together"
@@ -36,14 +36,14 @@ function Contact() {
       <form
         ref={form}
         onSubmit={handleSubmit}
-        className="space-y-6"
+        className="space-y-4 sm:space-y-6"
       >
         <input
           type="text"
           name="name"
           placeholder="Your Name"
           required
-          className="w-full p-4 rounded-xl bg-slate-900"
+          className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:placeholder:text-[#A0A0A0]"
         />
 
         <input
@@ -51,7 +51,7 @@ function Contact() {
           name="email"
           placeholder="Your Email"
           required
-          className="w-full p-4 rounded-xl bg-slate-900"
+          className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:placeholder:text-[#A0A0A0]"
         />
 
         <textarea
@@ -59,7 +59,7 @@ function Contact() {
           name="message"
           placeholder="Message"
           required
-          className="w-full p-4 rounded-xl bg-slate-900"
+          className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:placeholder:text-[#A0A0A0]"
         />
 
         <button

@@ -42,7 +42,8 @@ function ProjectCard({ project }) {
               text-xl
               sm:text-2xl
               font-bold
-              text-white
+              text-slate-900
+              dark:text-white
               break-words
             "
           >
@@ -55,7 +56,8 @@ function ProjectCard({ project }) {
               mt-3
               text-sm
               sm:text-base
-              text-slate-400
+              text-slate-600
+              dark:text-[#A0A0A0]
               leading-relaxed
               min-h-[72px]
             "

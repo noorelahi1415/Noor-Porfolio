@@ -6,10 +6,14 @@ function GlassCard({ children, className = "" }) {
         overflow-hidden
         rounded-2xl
         border
-        border-white/10
-        bg-white/5
+        border-slate-200/80
+        bg-white/75
+        dark:border-white/10
+        dark:bg-white/5
         backdrop-blur-lg
-        shadow-xl
+        shadow-lg
+        shadow-slate-200/50
+        dark:shadow-none
         transition-all
         duration-300
         hover:border-blue-500/30

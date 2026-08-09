@@ -12,7 +12,7 @@ return(
 
 <section
 id="projects"
-className="max-w-7xl mx-auto px-6 py-32"
+className="mx-auto max-w-7xl px-5 py-20 sm:px-6 sm:py-24 lg:py-32"
 >
 
 <SectionTitle
@@ -23,10 +23,10 @@ subtitle="Portfolio"
 
 />
 
-<div className="grid lg:grid-cols-2 gap-10">
+<div className="grid gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-10">
 
 {loading ? (
-  <p className="text-center text-gray-400">
+  <p className="text-center text-slate-600 dark:text-[#A0A0A0]">
     Loading GitHub repositories...
   </p>
 ) : (

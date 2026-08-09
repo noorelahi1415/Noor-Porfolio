@@ -1,14 +1,29 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 html{
   scroll-behavior:smooth;
+  overflow-x:clip;
 }
 
 body{
   margin:0;
-  background:#020617;
-  color:white;
+  background:#f8fafc;
+  color:#172033;
   font-family:'Inter',sans-serif;
+  transition:background-color 250ms ease, color 250ms ease;
+  overflow-x:clip;
+}
+
+html.dark body{
+  background:#111827;
+  color:#f8fafc;
+}
+
+html.dark main h1,
+html.dark main h2,
+html.dark main h3{
+  color:#ffffff;
 }
 
 h1,h2,h3,h4,h5{

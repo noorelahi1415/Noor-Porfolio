@@ -1,5 +1,5 @@
-import React from 'react'
 import profile from "../../data/profile";
+import profileImage from "../../assets/profile.jpeg";
 import SectionTitle from "../common/sectiontitle";
 
 import StatCard from "../common/StatCard";
@@ -8,43 +8,44 @@ import GlassCard from '../common/Glasscard';
 function About() {
 
 return(
-<GlassCard className='p-8'>
+<GlassCard className='p-4 sm:p-6 lg:p-8'>
 <section
 id="about"
-className="max-w-7xl mx-auto px-6 py-32"
+className="mx-auto max-w-7xl px-5 py-20 sm:px-6 sm:py-24 lg:py-32"
 >
 
-<SectionTitle
-title="About Me"
-subtitle="Who I Am"
-/>
-
-<div className="grid md:grid-cols-2 gap-16 items-center">
+<div className="grid items-center gap-10 md:grid-cols-2 lg:gap-16">
 
 <div>
 
 <img
-src="/profile.jpg"
+src={profileImage}
 alt="Profile"
-className="rounded-3xl shadow-2xl"
+className="w-full rounded-3xl shadow-2xl"
 />
 
 </div>
 
-<div>
+<div className="lg:translate-x-6">
 
-<h3 className="text-3xl font-bold">
+<SectionTitle
+title="About Me"
+subtitle="Who I Am"
+className="mb-8 px-0 sm:mb-10 lg:mb-10"
+/>
+
+<h3 className="text-2xl font-bold sm:text-3xl">
 
 Software Engineer & DevOps Enthusiast
 
 </h3>
 
-<p className="text-slate-400 mt-8 leading-8">
+<p className="mt-6 text-sm leading-7 text-slate-600 dark:text-[#A0A0A0] sm:mt-8 sm:text-base sm:leading-8">
 
 {profile.description}
 
 </p> 
-<div className="grid grid-cols-2 gap-5 mt-10">
+<div className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:gap-5">
 
 <StatCard
 number={profile.projectsCompleted}

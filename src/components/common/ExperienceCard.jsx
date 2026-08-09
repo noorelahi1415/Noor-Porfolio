@@ -29,7 +29,8 @@ function ExperienceCard({ item }) {
               text-xl
               sm:text-2xl
               font-bold
-              text-white
+              text-slate-900
+              dark:text-white
               break-words
             "
           >
@@ -43,7 +44,8 @@ function ExperienceCard({ item }) {
               text-base
               sm:text-lg
               font-medium
-              text-blue-400
+              text-blue-600
+              dark:text-blue-400
               break-words
             "
           >
@@ -56,7 +58,8 @@ function ExperienceCard({ item }) {
               mt-1
               text-sm
               sm:text-base
-              text-slate-500
+              text-slate-600
+              dark:text-[#A0A0A0]
             "
           >
             {item.duration}
@@ -69,7 +72,8 @@ function ExperienceCard({ item }) {
               text-sm
               sm:text-base
               leading-7
-              text-slate-400
+              text-slate-600
+              dark:text-[#A0A0A0]
             "
           >
             {item.description}

@@ -14,24 +14,6 @@ function CertificateCard({ certificate }) {
       className="h-full"
     >
       <GlassCard className="group h-full overflow-hidden">
-        {/* Certificate Image */}
-        <div className="overflow-hidden rounded-t-2xl">
-          <img
-            src={certificate.image}
-            alt={certificate.title}
-            className="
-              w-full
-              h-48
-              sm:h-56
-              lg:h-64
-              object-cover
-              transition-transform
-              duration-500
-              group-hover:scale-105
-            "
-          />
-        </div>
-
         {/* Certificate Content */}
         <div className="flex flex-col justify-center items-center p-4 sm:p-6 lg:p-8">
           <h3
@@ -41,13 +23,30 @@ function CertificateCard({ certificate }) {
               lg:text-2xl
               font-semibold
               text-center
-              text-white
+              text-slate-900
+              dark:text-white
               break-words
               leading-snug
             "
           >
             {certificate.title}
           </h3>
+        </div>
+
+        {/* Certificate Image */}
+        <div className="aspect-[4/3] overflow-hidden rounded-t-2xl bg-white p-2">
+          <img
+            src={certificate.image}
+            alt={certificate.title}
+            className="
+              w-full
+              h-full
+              object-contain
+              transition-transform
+              duration-500
+              group-hover:scale-105
+            "
+          />
         </div>
       </GlassCard>
     </motion.div>

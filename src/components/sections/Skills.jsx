@@ -9,7 +9,7 @@ return(
 
 <section
 id="skills"
-className="max-w-7xl mx-auto py-32 px-6"
+className="mx-auto max-w-7xl px-5 py-20 sm:px-6 sm:py-24 lg:py-32"
 >
 
 <SectionTitle
@@ -17,7 +17,7 @@ title="My Skills"
 subtitle="Technologies"
 />
 
-<div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+<div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-4 lg:grid-cols-5 lg:gap-8">
 
 {
 

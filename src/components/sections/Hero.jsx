@@ -25,15 +25,15 @@ return(
 
 <section
 id="home"
-className="relative min-h-screen flex items-center overflow-hidden"
+className="relative flex min-h-screen items-center overflow-hidden pb-16 pt-28 sm:pb-20 sm:pt-32"
 >
 
     {/* This creates a modern glowing background without using images. */}
             <div className="absolute inset-0 -z-10">
 
-        <div className="absolute top-32 left-20 w-72 h-72 bg-blue-600 rounded-full blur-[120px] opacity-20"/>
+        <div className="absolute left-[-6rem] top-20 h-56 w-56 rounded-full bg-blue-500/10 blur-[120px] dark:bg-blue-600/20 sm:left-20 sm:top-32 sm:h-72 sm:w-72 sm:blur-[140px]"/>
 
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyan-500 rounded-full blur-[150px] opacity-20"/>
+        <div className="absolute bottom-8 right-[-8rem] h-72 w-72 rounded-full bg-cyan-500/10 blur-[140px] dark:bg-cyan-500/20 sm:bottom-20 sm:right-20 sm:h-96 sm:w-96 sm:blur-[170px]"/>
 
         </div>
     {/* This creates a modern glowing background without using images. */}
@@ -46,33 +46,33 @@ animate={{opacity:1,y:0}}
 
 transition={{duration:1}}
 
- className="max-w-7xl mx-auto px-6">
+ className="mx-auto w-full max-w-7xl px-5 sm:px-6">
 
-<h2 className="text-2xl text-blue-400">
+<h2 className="text-lg text-blue-600 dark:text-blue-400 sm:text-2xl">
 
 Hello, I'm
 
 </h2>
 
-<h1 className="text-6xl font-bold mt-3">
+<h1 className="mt-3 break-words text-4xl font-bold sm:text-5xl lg:text-6xl">
 
 {profile.name}
 
 </h1>
 
-<p className="text-2xl mt-6 text-blue-400">
+<p className="mt-5 text-xl text-blue-600 dark:text-blue-400 sm:mt-6 sm:text-2xl">
 
 <Typewriter
 
 words={[
 
-"MERN Stack Developer",
+"AWS Engineer",
 
 "DevOps Engineer",
 
 "Cloud Enthusiast",
 
-"React Developer"
+
 
 ]}
 
@@ -92,12 +92,12 @@ deleteSpeed={40}
 
 
 
-<p className="text-slate-400 mt-8 max-w-xl leading-8">
+<p className="mt-6 max-w-xl text-sm leading-7 text-slate-600 dark:text-[#A0A0A0] sm:mt-8 sm:text-base sm:leading-8">
 
 {profile.description}
 
 </p>
-<div className="flex gap-6 mt-10">
+<div className="mt-8 flex gap-5 sm:mt-10 sm:gap-6">
 
 <a
 
@@ -146,7 +146,7 @@ href={profile.resume}
 
 download
 
-className="inline-block mt-10 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 transition"
+className="mt-8 inline-block rounded-xl bg-blue-600 px-6 py-3 text-sm font-medium transition hover:bg-blue-700 sm:mt-10 sm:px-8 sm:py-4 sm:text-base"
 
 >
 

@@ -9,7 +9,7 @@ return(
 
 <section
 id="experience"
-className="max-w-5xl mx-auto py-32 px-6"
+className="mx-auto max-w-5xl px-5 py-20 sm:px-6 sm:py-24 lg:py-32"
 >
 
 <SectionTitle
