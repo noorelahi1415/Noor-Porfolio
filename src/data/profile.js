@@ -13,7 +13,7 @@ const profile = {
 
   email: "elahi1415@gmai.com",
 
-  resume: "/resume/resume.pdf",
+  resume: "/resume/NoorResume.pdf",
 
   yearsExperience: "0.4",
 
